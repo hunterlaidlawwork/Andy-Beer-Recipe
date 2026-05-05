@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andy’s Homebrew Bible</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #111;
+}
+
+/* HERO */
+.hero {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* LAYOUT */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    border-bottom: 2px solid #111;
+    padding-bottom: 8px;
+}
+
+/* CARDS */
+.card {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* NOTE */
+.note {
+    background: #eee;
+    padding: 12px;
+    border-left: 5px solid black;
+    margin-top: 10px;
+}
+
+/* DIAGRAMS */
+.diagram {
+    text-align: center;
+    margin: 20px 0;
+}
+
+svg {
+    max-width: 260px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>🍺 Andy’s Homebrew Bible</h1>
+    <p>His recipe lives on. Brew it right.</p>
+</div>
+
+<div class="container">
+
+<div class="section">
+<h2>About Andy</h2>
+<div class="card">
+<p>
+This guide is built to keep Andy’s way of brewing alive.
+Simple process. No shortcuts. Good beer every time.
+</p>
+</div>
+</div>
+
+<div class="section">
+<h2>⚠ Golden Rule</h2>
+<div class="card">
+<p><strong>Sanitize everything that touches your beer. Every time.</strong></p>
+</div>
+</div>
+
+<div class="section">
+<h2>01 — Brew Day</h2>
+
+<div class="diagram">
+<svg viewBox="0 0 100 120">
+<rect x="20" y="30" width="60" height="70" fill="none" stroke="black"/>
+<line x1="20" y1="30" x2="80" y2="30" stroke="black"/>
+<line x1="30" y1="60" x2="70" y2="60" stroke="black" stroke-dasharray="3"/>
+</svg>
+</div>
+
+<div class="card">
+<ul>
+<li>Sanitize everything</li>
+<li>Add water, malt, and dextrose</li>
+<li>Cool below 30°C</li>
+<li>Add yeast</li>
+<li>Seal and leave it alone</li>
+</ul>
+</div>
+
+</div>
+
+<div class="section">
+<h2>02 — Transfer</h2>
+
+<div class="diagram">
+<svg viewBox="0 0 200 120">
+<rect x="10" y="40" width="60" height="60" fill="none" stroke="black"/>
+<line x1="70" y1="70" x2="150" y2="90" stroke="black"/>
+<ellipse cx="160" cy="95" rx="25" ry="15" fill="none" stroke="black"/>
+</svg>
+</div>
+
+<div class="card">
+<ul>
+<li>Siphon gently into carboy</li>
+<li>Keep sediment out</li>
+<li>Add airlock</li>
+</ul>
+<p class="note">Leave 10–14 days. Don’t rush it.</p>
+</div>
+
+</div>
+
+<div class="section">
+<h2>03 — Bottling</h2>
+
+<div class="diagram">
+<svg viewBox="0 0 200 120">
+<rect x="20" y="40" width="60" height="60" fill="none" stroke="black"/>
+<line x1="80" y1="70" x2="140" y2="70" stroke="black"/>
+<rect x="140" y="50" width="20" height="40" fill="none" stroke="black"/>
+</svg>
+</div>
+
+<div class="card">
+<ul>
+<li>Add priming sugar first</li>
+<li>Siphon beer in (no splashing)</li>
+<li>Fill bottles fully</li>
+<li>Cap immediately</li>
+</ul>
+<p class="note"><strong>Airlock must be still 48+ hours before bottling.</strong></p>
+</div>
+
+</div>
+
+<div class="section">
+<h2>Conditioning</h2>
+<div class="card">
+<ul>
+<li>Store at 18–22°C</li>
+<li>Wait at least 2 weeks</li>
+<li>Test one bottle before chilling all</li>
+</ul>
+</div>
+</div>
+
+<div class="section">
+<h2>Timeline</h2>
+<div class="card">
+<ul>
+<li>Day 0 — Brew</li>
+<li>Day 9–14 — Transfer</li>
+<li>Day 19–24 — Bottle</li>
+<li>+2 Weeks — Ready</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<footer>
+<p>In memory of Andy 🍺</p>
+</footer>
+
+</body>
+</html>
